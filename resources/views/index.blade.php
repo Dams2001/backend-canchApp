@@ -11,11 +11,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="{{ asset('style/index.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('style/index.css') }}?v={{ time() }}">
+    <link rel="stylesheet" href="{{ asset('build/css/app.css') }}">
 
-    <script src="{{ asset('javascript/index.js') }}?v={{ time() }}"></script>
 
-    <!-- <link rel="stylesheet" href="{{ asset('build/css/app.css') }}"> -->
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
