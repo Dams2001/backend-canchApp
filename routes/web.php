@@ -34,6 +34,12 @@ Route::get('/db-test', function () {
 });
 
 
+Route::get('/login', function () {
+    return view('sesion');
+});
+
+
+
 Route::resource('usuarios', UsuarioController::class);
 Route::resource('reservas', ReservaController::class);
 
