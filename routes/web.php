@@ -12,9 +12,9 @@ Route::resource('usuarios', UsuarioController::class);
 Route::resource('reservas', ReservaController::class);
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // use Illuminate\Support\Facades\Route;
 
