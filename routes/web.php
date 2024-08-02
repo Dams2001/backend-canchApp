@@ -39,6 +39,11 @@ Route::get('/login', function () {
 });
 
 
+Route::get('/test', function () {
+    return 'Ruta de prueba funcionando correctamente';
+});
+
+
 
 Route::resource('usuarios', UsuarioController::class);
 Route::resource('reservas', ReservaController::class);
