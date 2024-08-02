@@ -8,15 +8,15 @@ use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\ReservaController;
 
-Route::resource('usuarios', UsuarioController::class);
-Route::resource('reservas', ReservaController::class);
 
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+use Illuminate\Support\Facades\Log;
 
-// use Illuminate\Support\Facades\Route;
+Route::get('/test-log', function () {
+    Log::info('This is a test log message.');
+    return 'Check the Vercel logs for this message';
+});
+
  
 Route::get('/', function () {
     return view('index');
