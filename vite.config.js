@@ -8,4 +8,7 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/build', // Asegúrate de que los archivos se compilan en la carpeta 'public/build'
+    },
 });

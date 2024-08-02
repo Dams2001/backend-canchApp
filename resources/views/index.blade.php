@@ -9,9 +9,8 @@
     />
     <title>CANCHAPP</title>
 
-    <!-- <link rel="stylesheet" href="./style/index.css" /> -->
-    <link rel="stylesheet" href="{{ asset('assets/css/index.css') }}">
-    <script src="{{ asset('js/index.js') }}"></script>
+    <!-- Usando Laravel Vite para los estilos y scripts -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
@@ -19,7 +18,7 @@
     <header id="header">
       <div class="container">
         <img
-          src="./assets/img/CANCHAPP_logo_trans.png"
+          src="{{ asset('assets/img/CANCHAPP_logo_trans.png') }}"
           alt="Logo"
           class="logo"
         />
@@ -55,7 +54,7 @@
             ></a>
           </div>
           <div class="image">
-            <img src="./assets/img/CANCHAPP-1.png" alt="Canchapp" />
+            <img src="{{ asset('assets/img/CANCHAPP-1.png') }}" alt="Canchapp" />
           </div>
         </div>
       </section>
@@ -70,19 +69,19 @@
           </div>
 
           <div class="img-celu-cancha1">
-            <img src="./assets/img/CANCHAPP(2).png" alt="Canchapp 2" />
+            <img src="{{ asset('assets/img/CANCHAPP(2).png') }}" alt="Canchapp 2" />
           </div>
 
           <div class="review">
             <h2>163 reviews</h2>
             <p>
               9,6/10
-              <img src="./assets/img/app5-slider-pic3.png" alt="" />
+              <img src="{{ asset('assets/img/app5-slider-pic3.png') }}" alt="" />
             </p>
           </div>
           <div class="img-descarga-app">
-            <img src="./assets/img/AppStore.png" alt="App Store" />
-            <img src="./assets/img/PlayStore-260x77.png" alt="Play Store" />
+            <img src="{{ asset('assets/img/AppStore.png') }}" alt="App Store" />
+            <img src="{{ asset('assets/img/PlayStore-260x77.png') }}" alt="Play Store" />
           </div>
         </div>
       </section>
@@ -97,16 +96,16 @@
 
           <div class="sports">
             <a href="">
-              <img src="./assets/img/negocio_futbol.png" alt="Deporte 1"
+              <img src="{{ asset('assets/img/negocio_futbol.png') }}" alt="Deporte 1"
             /></a>
             <a href="">
-              <img src="./assets/img/negocio_voley.png" alt="Deporte 2"
+              <img src="{{ asset('assets/img/negocio_voley.png') }}" alt="Deporte 2"
             /></a>
             <a href="">
-              <img src="./assets/img/negocio_padel.png" alt="Deporte 3"
+              <img src="{{ asset('assets/img/negocio_padel.png') }}" alt="Deporte 3"
             /></a>
             <a href="">
-              <img src="./assets/img/negocio_basquet.png" alt="Deporte 4"
+              <img src="{{ asset('assets/img/negocio_basquet.png') }}" alt="Deporte 4"
             /></a>
           </div>
         </div>
@@ -127,7 +126,7 @@
       <section class="section section-5">
         <div class="container">
           <div class="image">
-            <img src="./assets/img/CANCHAPP(5).png" alt="Canchapp 5" />
+            <img src="{{ asset('assets/img/CANCHAPP(5).png') }}" alt="Canchapp 5" />
           </div>
           <div class="content">
             <h3>AUTOMATIZACIÓN DE RESERVAS</h2>
@@ -154,15 +153,15 @@
           
           <div class="features">
             <div>
-              <img src="./assets/img/13.png" alt="Icon 1" />
+              <img src="{{ asset('assets/img/13.png') }}" alt="Icon 1" />
               <h3>Fácil y rápido</h3>
             </div>
             <div>
-              <img src="./assets/img/14.png" alt="Icon 2" />
+              <img src="{{ asset('assets/img/14.png') }}" alt="Icon 2" />
               <h3>100% Online</h3>
             </div>
             <div>
-              <img src="./assets/img/15.png" alt="Icon 3" />
+              <img src="{{ asset('assets/img/15.png') }}" alt="Icon 3" />
               <h3>Multiplataforma</h3>
             </div>
           </div>
@@ -215,18 +214,18 @@
           <h2>163 reviews</h2>
           <p>
             9,6/10
-            <img src="./assets/img/app5-slider-pic3.png" alt="" />
+            <img src="{{ asset('assets/img/app5-slider-pic3.png') }}" alt="" />
           </p>
        
           <div class="images">
-            <img src="./assets/img/PlayStore-260x77.png" alt="Play Store" />
-            <img src="./assets/img/AppStore.png" alt="App Store" />
+            <img src="{{ asset('assets/img/PlayStore-260x77.png') }}" alt="Play Store" />
+            <img src="{{ asset('assets/img/AppStore.png') }}" alt="App Store" />
           </div>
 
       </div>
       </div>
     </footer>
 
-    <script src="./javascript/index.js"></script>
+    <script src="{{ asset('javascript/index.js') }}"></script>
   </body>
 </html>
