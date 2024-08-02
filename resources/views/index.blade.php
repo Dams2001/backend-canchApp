@@ -11,6 +11,8 @@
 
     <!-- Usando Laravel Vite para los estilos y scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('style/index.css') }}">
+
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
