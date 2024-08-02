@@ -17,7 +17,7 @@ Route::resource('reservas', ReservaController::class);
 // });
 
 // use Illuminate\Support\Facades\Route;
-
+ 
 Route::get('/', function () {
     return view('index');
 });

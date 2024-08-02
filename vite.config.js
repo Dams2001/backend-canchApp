@@ -31,3 +31,4 @@ export default defineConfig({
         outDir: 'public/build', // Asegúrate de que los archivos se compilan en la carpeta 'public/build'
     },
 });
+                            
