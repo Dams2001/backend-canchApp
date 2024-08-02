@@ -37,7 +37,7 @@
           >Hace tu Reserva <i class="fas fa-angle-right"></i
         ></a>
 
-      <a href="{{ url('/login') }}" class="btn-sesion"><i class="fas fa-user"></i></a>
+      <!-- <a href="{{ url('/login') }}" class="btn-sesion"><i class="fas fa-user"></i></a> -->
 
         <a href="/login" class="btn-sesion"><i class="fas fa-user"></i></a>
       </div>
