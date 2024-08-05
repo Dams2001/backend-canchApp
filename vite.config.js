@@ -6,13 +6,13 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/css/app.css',
-                'resources/css/index.css', // Asegúrate de incluir este archivo si es necesario
+                'resources/css/index.css',
                 'resources/js/app.js',
             ],
             refresh: true,
         }),
     ],
     build: {
-        outDir: 'dist', // Asegúrate de que los archivos se compilan en la carpeta 'public/build'
+        outDir: 'public/build', // Asegúrate de que los archivos se compilan en la carpeta 'public/build'
     },
 });
