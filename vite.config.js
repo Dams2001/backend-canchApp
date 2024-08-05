@@ -13,6 +13,6 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'public/build', // Asegúrate de que los archivos se compilan en la carpeta 'public/build'
+        outDir: 'dist', // Asegúrate de que los archivos se compilan en la carpeta 'public/build'
     },
 });
